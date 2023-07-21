@@ -4,5 +4,8 @@
   },
   "about.qmd": {
     "about.html": "3aca5808"
+  },
+  "posts/first-post.qmd": {
+    "first-post.html": "bcbf5a67"
   }
 }

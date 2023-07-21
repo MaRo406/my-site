@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "MaRo406.github.io"
+  title: "Mateo Robbins"
   navbar:
     left:
       - href: index.qmd

@@ -1,7 +1,47 @@
 ---
-title: "MaRo406.github.io"
+title: "Mateo Robbins"
+image: headshot.jpg
+about: 
+  template: trestles
+  image-shape: round
+  image-width: 23em
+  links:
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/matthew-mateo-robbins-phd-75462817/
+    - text: GitHub
+      href: https://github.com/MaRo406/
+    - text: Email
+      href: mailto:mjrobbins@ucsb.edu
 ---
 
-This is a Quarto website.
+Greetings! My name is Mateo and I am an interdisciplinary social scientist and data science educator.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+# Education
+
+- PhD in Human Ecology, University of California, Davis (2017)
+- MA in Psychology, Washington University in St. Louis (2007)
+- BA in Psycholgy, Willamette University (2004)
+
+# Experience
+
+- Company Name - Job Title, Year
+- Company Name - Job Title, Year
+- Company Name - Job Title, Year
+
+# Blog
+
+<ul>
+{% for post in site.posts %}
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    <span>{{ post.date }}</span>
+  </li>
+{% endfor %}
+</ul>
+---
+
+&copy; 2023 Your Name
+
+
+
+

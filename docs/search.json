@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "MaRo406.github.io",
+    "title": "Mateo Robbins",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Greetings! My name is Mateo and I am an interdisciplinary social scientist and data science educator.\n\nEducation\n\nPhD in Human Ecology, University of California, Davis (2017)\nMA in Psychology, Washington University in St. Louis (2007)\nBA in Psycholgy, Willamette University (2004)\n\n\n\nExperience\n\nCompany Name - Job Title, Year\nCompany Name - Job Title, Year\nCompany Name - Job Title, Year\n\n\n\nBlog\n\n{% for post in site.posts %}\n\n{{ post.title }} {{ post.date }}\n\n{% endfor %}\n\n\n© 2023 Your Name"
   },
   {
     "objectID": "about.html",
