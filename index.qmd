@@ -1,47 +1,28 @@
 ---
-title: "Mateo Robbins"
-image: headshot.jpg
+title: "Dr. Erin Satterthwaite"
+image: e-headshot.png
 about: 
-  template: trestles
+  template: jolla
   image-shape: round
   image-width: 23em
   links:
     - text: LinkedIn
-      href: https://www.linkedin.com/in/matthew-mateo-robbins-phd-75462817/
+      href: https://www.linkedin.com/in/erin-satterthwaite-309a79164/
     - text: GitHub
-      href: https://github.com/MaRo406/
+      href: https://github.com/evsatt
     - text: Email
-      href: mailto:mjrobbins@ucsb.edu
+      href: mailto:esatterthwaite@ucsd.edu
 ---
 
-Greetings! My name is Mateo and I am an interdisciplinary social scientist and data science educator.
+Hello!  My name is Erin and I'm an ocean sustainability researcher, life adventurer, outdoor educator, marine ecologist, science communicator, & dance enthusiast. 
 
 # Education
 
-- PhD in Human Ecology, University of California, Davis (2017)
-- MA in Psychology, Washington University in St. Louis (2007)
-- BA in Psycholgy, Willamette University (2004)
+PhD in  Ecology, University of California, Davis 
 
 # Experience
 
-- Company Name - Job Title, Year
-- Company Name - Job Title, Year
-- Company Name - Job Title, Year
+Sustainability Researcher at California Sea Grant & CalCOFI, Scripps Institution of Oceanography, UCSD
 
-# Blog
-
-<ul>
-{% for post in site.posts %}
-  <li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-    <span>{{ post.date }}</span>
-  </li>
-{% endfor %}
-</ul>
----
-
-&copy; 2023 Your Name
-
-
-
+# Projects
 
